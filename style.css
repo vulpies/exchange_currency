@@ -1,0 +1,58 @@
+h1,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.wrapper > h1 {
+    font-size: 30px;
+}
+
+.wrapper > p {
+    margin: 10px 0 15px;
+    font-size: 23px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.currency > select {
+    font-size: 20px;
+}
+
+.currency > input {
+    font-size: 20px;
+    text-align: right;
+}
+.swap-currency {
+    margin: 10px 0;
+    width: 325px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.rate {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 5px;
+    background-image: url("change.png");
+    background-size: 26px 25px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<title>Exchange currency</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Конвертер валюты</h1>
+		<p>Выберите валюту для обмена:</p>
+
+		<div class="container">
+
+			<div class="currency">
+				<select id="currency-one">
+					<option value="BYN">BYN</option>
+					<option value="USD" selected>USD</option>
+					<option value="EUR">EUR</option>
+					<option value="CNY">CNY</option>
+					<option value="RUB">RUB</option>
+				</select>
+
+				<input type="number" id="first-amount" placeholder="0" value="1">
+			</div>
+
+			<div class="swap-currency">
+				<button class="btn" id="swap"></button>
+				<div class="rate" id="rate"></div>
+			</div>
+			<div class="currency">
+
+				<select id="currency-two">
+					<option value="BYN" selected>BYN</option>
+					<option value="USD">USD</option>
+					<option value="EUR">EUR</option>
+					<option value="CNY">CNY</option>
+					<option value="RUB">RUB</option>
+				</select>
+
+				<input type="number" id="second-amount">
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
